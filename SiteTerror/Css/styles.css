@@ -1,0 +1,89 @@
+/* Define o estilo para o container principal */
+.container {
+  max-width: 800px; /* largura máxima */
+  margin: 0 auto; /* centraliza o container */
+  padding: 20px; /* adiciona espaçamento interno */
+}
+
+/* Define o estilo para o cabeçalho */
+.header {
+  display: flex; /* usa o flexbox para posicionar os itens */
+  justify-content: space-between; /* alinha os itens ao espaço entre eles */
+  align-items: center; /* centraliza os itens verticalmente */
+  margin-bottom: 20px; /* adiciona espaço abaixo do cabeçalho */
+}
+
+/* Define o estilo para a lista de navegação */
+nav ul {
+  list-style: none; /* remove as bolinhas da lista */
+  margin: 0; /* remove margem */
+  padding: 0; /* remove preenchimento */
+  display: flex; /* usa o flexbox para posicionar os itens */
+}
+
+/* Define o estilo para os itens da lista de navegação */
+nav ul li {
+  margin-right: 20px; /* adiciona margem à direita para separar os itens */
+}
+
+/* Define o estilo para o último item da lista de navegação */
+nav ul li:last-child {
+  margin-right: 0; /* remove a margem à direita do último item */
+}
+
+/* Define o estilo para os links da lista de navegação */
+nav ul li a {
+  color: #fff; /* cor do texto */
+  text-decoration: none; /* remove o sublinhado */
+}
+
+/* Define o estilo para o conteúdo */
+.content {
+  margin-bottom: 40px; /* adiciona espaço abaixo do conteúdo */
+}
+
+/* Define o estilo para o formulário de login */
+.login-form {
+  max-width: 400px; /* largura máxima do formulário */
+  margin: 0 auto; /* centraliza o formulário */
+}
+
+/* Define o estilo para o cabeçalho do formulário de login */
+.login-form h2 {
+  margin-bottom: 20px; /* adiciona espaço abaixo do cabeçalho */
+}
+
+/* Define o estilo para as etiquetas do formulário de login */
+.login-form label {
+  display: block; /* exibe as etiquetas em blocos */
+  margin-bottom: 10px; /* adiciona espaço abaixo das etiquetas */
+}
+
+/* Define o estilo para os campos de entrada de texto do formulário de login */
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  display: block; /* exibe os campos em blocos */
+  width: 100%; /* ocupa toda a largura disponível */
+  padding: 10px; /* adiciona preenchimento interno */
+  border-radius: 5px; /* arredonda as bordas */
+  border: none; /* remove a borda */
+  margin-bottom: 20px; /* adiciona espaço abaixo do campo */
+}
+
+/* Define o estilo para o botão de envio do formulário de login */
+.login-form button[type="submit"] {
+  background-color: #000; /* cor de fundo */
+  color: #fff; /* cor do texto */
+  padding: 10px 20px; /* adiciona preenchimento interno */
+  border: none; /* remove a borda */
+  border-radius: 5px; /* arredonda as bordas */
+  cursor: pointer; /* altera o cursor ao passar sobre o botão */
+}
+
+/* Define o estilo para a mensagem de aviso */
+.warning {
+  font-size: 12px;
+    color: #ccc;
+    text-align: center;
+  }
+  

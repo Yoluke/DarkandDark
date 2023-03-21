@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">    
+	<title>Minhas Histórias</title>
+	<link rel="stylesheet" href="styles.css">
+	<style>
+		html {
+			height: 100%;
+		}
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+			background: linear-gradient(#141e30, #243b55);
+		}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			padding: 20px;
+		}
+		.card {
+			width: 300px;
+			margin: 20px;
+			background-color: rgba(0,0,0,.5);
+			box-shadow: 0 15px 25px rgba(0,0,0,.6);
+			border-radius: 10px;
+			overflow: hidden;
+			color: #fff;
+		}
+		.card img {
+			width: 100%;
+			height: 200px;
+			object-fit: cover;
+		}
+		.card h3 {
+			padding: 10px;
+			margin: 0;
+			font-size: 24px;
+			text-align: center;
+			border-bottom: 1px solid #fff;
+		}
+		.card p {
+			padding: 10px;
+			margin: 0;
+			font-size: 16px;
+			text-align: justify;
+		}
+	</style>
+</head>
+<body>
+	<div class="login-box">
+		<h2>Minhas Histórias</h2>
+		<div class="container">
+			<div class="card">
+				<img src="https://picsum.photos/300/200" alt="Imagem da História 1">
+				<h3>Título da História 1</h3>
+				<p>Descrição da História 1</p>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/300/200" alt="Imagem da História 2">
+				<h3>Título da História 2</h3>
+				<p>Descrição da História 2</p>
+			</div>
+			<div class="card">
+				<img src="https://picsum.photos/300/200" alt="Imagem da História 3">
+				<h3>Título da História 3</h3>
+				<p>Descrição da História 3</p>
+			</div>
+			<!-- Adicione quantas histórias quiser -->
+		</div>
+		<form>
+			<a href="#"><span>Adicionar História</span></a>
+		</form>
+	</div>
+	<script src="index.js"></script>
+</body>
+</html>

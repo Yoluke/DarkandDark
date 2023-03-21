@@ -2,8 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Histórias de Terror</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Histórias de Terror</title> 
   <link rel="stylesheet" href="login.css">
 </head>
 <body>
@@ -33,15 +32,15 @@
   <div class="footer">
     <p class="warning">Conteúdo para maiores de 18 anos - Este site contém histórias de terror</p>
   </div>
-  <script src="script.js"></script>
+  <script src="index.js"></script>
   <script>
     function login() {
       // Verifica se o nome de usuário e a senha estão corretos
       var username = document.getElementById("username").value;
       var password = document.getElementById("password").value;
-      if (username === "usuario" && password === "senha") {
+      if (username === "Lucas" && password === "1234") {
         // Redireciona para a página principal
-        window.location.href = "index.html";
+        window.location.href = "main_page.html";
         return false;
       } else {
         alert("Usuário ou senha incorretos");

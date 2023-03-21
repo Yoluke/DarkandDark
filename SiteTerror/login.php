@@ -16,7 +16,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION["auth"] = true;
         
         // Redireciona o usuário para a página desejada
-        header('Location: index.html');
+        header('Location: main_page.html');
         exit();
 
     } else {
@@ -31,8 +31,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Histórias de Terror - Login</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Histórias de Terror - Login</title>  
   <link rel="stylesheet" href="login.css">
 </head>
 <body>
@@ -65,6 +64,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
   <div class="footer">
     <p class="warning">Conteúdo para maiores de 18 anos - Este site contém histórias de terror</p>
   </div>
-  <script src="script.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>
